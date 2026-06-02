@@ -1007,8 +1007,7 @@
   <div class="hero-scrim" aria-hidden="true"></div>
 
   <!-- Content Overlay Group -->
-  <div class="hero-content-overlay">
-    <div class="hero-text-block">
+  <div class="hero-content-overlay"><div class="hero-text-block">
       <h1 class="hero-headline">אוויר נקי, חיים בריאים יותר – ניקוי תעלות מיזוג מקצועי</h1>
       <h3 class="hero-subtitle">שירות ניקוי תעלות מיזוג אוויר לבתים, משרדים, בתי ספר ומרפאות. הפחתת אלרגיות, שיפור איכות האוויר ויעילות קירור מקסימלית.</h3>
       
@@ -1038,7 +1037,40 @@
         </div>
       </div>
     </div>
-  </div>
+    <div class="hero-form-block">
+      <form class="index-cta-section__form contact-form">
+        <div class="index-cta-section__form-grid">
+          <div class="index-cta-section__form-group">
+            <label class="index-cta-section__label" for="hero-name">שם מלא</label>
+            <input class="index-cta-section__input" type="text" id="hero-name" name="name" placeholder="ישראל ישראלי" required="">
+          </div>
+          <div class="index-cta-section__form-group">
+            <label class="index-cta-section__label" for="hero-email">דוא״ל</label>
+            <input class="index-cta-section__input" type="email" id="hero-email" name="email" placeholder="israel@example.com" required="">
+          </div>
+          <div class="index-cta-section__form-group">
+            <label class="index-cta-section__label" for="hero-phone">טלפון</label>
+            <input class="index-cta-section__input" type="tel" id="hero-phone" name="phone" placeholder="050-1234567" required="">
+          </div>
+          <div class="index-cta-section__form-group index-cta-section__form-group--full">
+            <label class="index-cta-section__label" for="hero-message">הודעה</label>
+            <textarea class="index-cta-section__input index-cta-section__textarea" id="hero-message" name="message" rows="4" placeholder="ספרו לנו על הצורך שלכם..." required=""></textarea>
+          </div>
+        </div>
+
+        <div class="privacy-consent">
+          <label class="privacy-consent-label">
+            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
+            <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
+          </label>
+        </div>
+
+        <button type="submit" class="index-cta-section__submit-btn">
+          <span>קבעו שיחת ייעוץ</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </button>
+      </form>
+    </div></div>
 
   <!-- Bottom Divider: Airflow Curve Transition -->
   <div class="hero-divider-wrapper" aria-hidden="true">
@@ -1547,45 +1579,10 @@
       <p class="index-cta-section__subtitle">שירות מקצועי לניקוי תעלות מיזוג אוויר לבתים, משרדים, בתי ספר, מרפאות ונכסים מנוהלים. צרו קשר עוד היום להערכה מקצועית ללא התחייבות.</p>
     </div>
 
-    <div class="index-cta-section__contact-wrapper">
-      <form class="index-cta-section__form contact-form">
-        <div class="index-cta-section__form-grid">
-          <div class="index-cta-section__form-group">
-            <label class="index-cta-section__label" for="cta-name">שם מלא</label>
-            <input class="index-cta-section__input" type="text" id="cta-name" name="name" placeholder="ישראל ישראלי" required="">
-          </div>
-          <div class="index-cta-section__form-group">
-            <label class="index-cta-section__label" for="cta-email">דוא״ל</label>
-            <input class="index-cta-section__input" type="email" id="cta-email" name="email" placeholder="israel@example.com" required="">
-          </div>
-          <div class="index-cta-section__form-group">
-            <label class="index-cta-section__label" for="cta-phone">טלפון</label>
-            <input class="index-cta-section__input" type="tel" id="cta-phone" name="phone" placeholder="050-1234567" required="">
-          </div>
-          <div class="index-cta-section__form-group index-cta-section__form-group--full">
-            <label class="index-cta-section__label" for="cta-message">הודעה</label>
-            <textarea class="index-cta-section__input index-cta-section__textarea" id="cta-message" name="message" rows="4" placeholder="ספרו לנו על הצורך שלכם..." required=""></textarea>
-          </div>
-        </div>
-
-        <div class="privacy-consent">
-          <label class="privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
-            <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
-          </label>
-        </div>
-
-        <button type="submit" class="index-cta-section__submit-btn">
-          <span>קבעו שיחת ייעוץ</span>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-        </button>
-      </form>
-
-      <div class="index-cta-section__direct-contact">
+    <div class="index-cta-section__contact-wrapper"><div class="index-cta-section__direct-contact">
         <p class="index-cta-section__direct-text">או חייגו אלינו עכשיו:</p>
         
-      </div>
-    </div>
+      </div></div>
   </div>
 </section>
   </main>
