@@ -37,9 +37,8 @@ Information about WCAG compliance and accessibility features.
 - Content-Type: application/json
 - Fields:
   - `name` (text, required)
-  - `email` (email, required)
   - `phone` (tel, required)
-  - `message` (textarea, required)
+  - `city` (text, required)
   - `privacy_consent` (checkbox, required)
 
 ---

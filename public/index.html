@@ -1015,40 +1015,27 @@
 
       
     </div>
-    <div class="hero-form-block">
-      <form class="index-cta-section__form contact-form">
-        <div class="index-cta-section__form-grid">
-          <div class="index-cta-section__form-group">
-            <label class="index-cta-section__label" for="hero-name">שם מלא</label>
-            <input class="index-cta-section__input" type="text" id="hero-name" name="name" placeholder="ישראל ישראלי" required="">
+    <div class="hero-form-block"><form class="hero-contact-form">
+        <h3 class="hero-form-title">בואו נבדוק את מצב התעלות אצלכם!</h3>
+        <div class="hero-form-fields">
+          <div class="hero-form-group">
+            <input class="hero-form-input" type="text" id="hero-name" name="name" placeholder="שם מלא*" required="">
           </div>
-          <div class="index-cta-section__form-group">
-            <label class="index-cta-section__label" for="hero-email">דוא״ל</label>
-            <input class="index-cta-section__input" type="email" id="hero-email" name="email" placeholder="israel@example.com" required="">
+          <div class="hero-form-group">
+            <input class="hero-form-input" type="tel" id="hero-phone" name="phone" placeholder="טלפון*" required="">
           </div>
-          <div class="index-cta-section__form-group">
-            <label class="index-cta-section__label" for="hero-phone">טלפון</label>
-            <input class="index-cta-section__input" type="tel" id="hero-phone" name="phone" placeholder="050-1234567" required="">
-          </div>
-          <div class="index-cta-section__form-group index-cta-section__form-group--full">
-            <label class="index-cta-section__label" for="hero-message">הודעה</label>
-            <textarea class="index-cta-section__input index-cta-section__textarea" id="hero-message" name="message" rows="4" placeholder="ספרו לנו על הצורך שלכם..." required=""></textarea>
+          <div class="hero-form-group">
+            <input class="hero-form-input" type="text" id="hero-city" name="city" placeholder="עיר*" required="">
           </div>
         </div>
-
-        <div class="privacy-consent">
-          <label class="privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
-            <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
+        <button type="submit" class="hero-form-submit">שליחה</button>
+        <div class="hero-form-privacy">
+          <label class="hero-form-privacy-label">
+            <input type="checkbox" name="privacy_consent" required="">
+            <span>אני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
           </label>
         </div>
-
-        <button type="submit" class="index-cta-section__submit-btn">
-          <span>קבעו שיחת ייעוץ</span>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-        </button>
-      </form>
-    </div></div>
+      </form></div></div>
 
   <!-- Bottom Divider: Airflow Curve Transition -->
   <div class="hero-divider-wrapper" aria-hidden="true">
