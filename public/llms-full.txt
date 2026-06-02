@@ -2,13 +2,13 @@
 
 A professional air conditioning duct cleaning company focused on high conversion. The business provides specialized cleaning services for AC ducts, targeting homeowners and businesses who want clean, healthy air and efficient cooling systems.
 
-Source: https://-f05576a7.zappy5.app
+Source: https://example.com
 
 ---
 
 ## ניקוי צינורות מיזוג אוויר מקצועי — המרכז למיזוג וחיטוי
 
-URL: https://-f05576a7.zappy5.app
+URL: https://example.com
 Description: מחפשים שירותי ניקוי תעלות מיזוג אוויר שיחזירו לכם אוויר נקי ובריא? במרכז למיזוג וחיטוי אנו מתמחים בניקוי יסודי של מערכות מיזוג, לשיפור איכות האוויר ויעילות המערכת. הזמינו עכשיו!
 
 ניקוי צינורות מיזוג אוויר מקצועי — המרכז למיזוג וחיטוי
@@ -749,7 +749,7 @@ Description: מחפשים שירותי ניקוי תעלות מיזוג אווי
 
 ## מדיניות פרטיות
 
-URL: https://-f05576a7.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -1019,7 +1019,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://-f05576a7.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1298,7 +1298,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://-f05576a7.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
