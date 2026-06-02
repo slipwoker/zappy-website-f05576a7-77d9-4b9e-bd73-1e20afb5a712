@@ -5499,6 +5499,51 @@ body a.whatsapp-float {
 .index-hero-section .hero-form-input:-ms-input-placeholder {
   color: #163133 !important;
 }
+
+.index-hero-section .hero-form-input,
+.index-hero-section .hero-form-input::placeholder {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-title {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-subtitle {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-submit {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-privacy {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-whatsapp-btn {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-main-title {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-input::placeholder {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-input::-webkit-input-placeholder {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-input::-moz-placeholder {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-input:-ms-input-placeholder {
+  color: #163133 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
