@@ -5245,6 +5245,77 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   padding: 24px 16px !important;
 }
 }
+
+body .whatsapp-float {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  position: fixed !important;
+  bottom: 28px !important;
+  left: 28px !important;
+  right: auto !important;
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%) !important;
+  color: #FFFFFF !important;
+  padding: 14px 22px !important;
+  border-radius: 50px !important;
+  text-decoration: none !important;
+  font-family: inherit !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  box-shadow: 0 6px 24px rgba(37, 211, 102, 0.45), 0 2px 8px rgba(0,0,0,0.12) !important;
+  z-index: 9999 !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: auto !important;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  animation: zappy-whatsapp-bounce 2.5s ease-in-out infinite !important;
+}
+
+body .whatsapp-float:hover {
+  transform: translateY(-4px) scale(1.05) !important;
+  box-shadow: 0 10px 32px rgba(37, 211, 102, 0.55), 0 4px 12px rgba(0,0,0,0.18) !important;
+  background: linear-gradient(135deg, #20BD5A 0%, #0E7D6F 100%) !important;
+}
+
+body .whatsapp-float .fab.fa-whatsapp {
+  font-size: 26px !important;
+  color: #FFFFFF !important;
+  line-height: 1 !important;
+}
+
+body .whatsapp-float-text {
+  white-space: nowrap !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #FFFFFF !important;
+  letter-spacing: initial !important;
+}
+
+@keyframes zappy-whatsapp-bounce {
+  0%, 100% { transform: translateY(0); }
+  10% { transform: translateY(-8px); }
+  20% { transform: translateY(0); }
+  30% { transform: translateY(-5px); }
+  40% { transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+body .whatsapp-float {
+  bottom: 18px !important;
+  left: 16px !important;
+  padding: 13px 18px !important;
+  gap: 8px !important;
+}
+
+body .whatsapp-float .fab.fa-whatsapp {
+  font-size: 22px !important;
+}
+
+body .whatsapp-float-text {
+  font-size: 14px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
