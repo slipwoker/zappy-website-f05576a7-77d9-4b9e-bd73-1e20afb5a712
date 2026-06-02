@@ -252,6 +252,190 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-testimonials-section {
+  background: var(--bg-light);
+  color: var(--text-dark);
+  padding: 80px 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.index-testimonials-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Header */
+.index-testimonials-section__header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.index-testimonials-section__label {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.index-testimonials-section__title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+/* Grid */
+.index-testimonials-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  direction: rtl;
+}
+
+/* Card */
+.index-testimonials-section__card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(13, 30, 46, 0.08);
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-width: 0;
+}
+
+.index-testimonials-section__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(13, 30, 46, 0.14);
+}
+
+/* Stars */
+.index-testimonials-section__stars {
+  display: flex;
+  gap: 2px;
+  color: #FFB800;
+  margin-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.index-testimonials-section__stars svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Quote */
+.index-testimonials-section__quote {
+  margin: 0 0 16px 0;
+  flex-grow: 1;
+}
+
+.index-testimonials-section__quote p {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-dark);
+  margin: 0;
+  text-align: right;
+}
+
+/* Author */
+.index-testimonials-section__author {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--border-light);
+  padding-top: 12px;
+  margin-top: auto;
+}
+
+.index-testimonials-section__name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  line-height: 1.4;
+}
+
+.index-testimonials-section__role {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* CTA */
+.index-testimonials-section__cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.index-testimonials-section__button.btn-primary {
+  background: var(--primary);
+  color: #FFFFFF;
+  padding: 14px 28px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.index-testimonials-section__button.btn-primary:hover {
+  background: #0a5e57;
+  box-shadow: 0 12px 40px rgba(15, 118, 110, 0.3);
+}
+
+.index-testimonials-section__button.btn-primary svg {
+  transform: rotate(180deg);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .index-testimonials-section {
+    padding: 60px 16px;
+  }
+
+  .index-testimonials-section__header {
+    margin-bottom: 32px;
+  }
+
+  .index-testimonials-section__title {
+    font-size: 1.75rem;
+  }
+
+  .index-testimonials-section__grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+
+  .index-testimonials-section__card {
+    padding: 16px;
+  }
+
+  .index-testimonials-section__cta {
+    margin-top: 32px;
+  }
+
+  .index-testimonials-section__button.btn-primary {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "f05576a7-77d9-4b9e-bd73-1e20afb5a712"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -1057,157 +1241,186 @@
   </div>
 </section>
 
-<section data-band-index="3" id="testimonials" class="index-testimonials-section" data-layout-spec="בית-testimonials" dir="rtl">
-  <!-- Decorative background layers -->
-  <div class="index-testimonials-section bg-decor" aria-hidden="true">
-    <div class="index-testimonials-section bg-orbs"></div>
-    <div class="index-testimonials-section bg-lines"></div>
-  </div>
-
-  <div class="index-testimonials-section content-container">
+<section class="index-testimonials-section" data-layout-spec="בית-testimonials" dir="rtl" id="testimonials">
+  <div class="index-testimonials-section__container">
     <!-- Section Header -->
-    <div class="index-testimonials-section section-header">
-      <span class="index-testimonials-section overline">הלקוחות שלנו מספרים</span>
-      <h2 class="index-testimonials-section section-title">אוויר נקי יותר,<br>בית בריא יותר</h2>
-      <p class="index-testimonials-section section-subtitle">אלפי לקוחות כבר נהנים מאוויר נקי ורענן בזכות שירות ניקוי תעלות המיזוג שלנו. הנה מה שהם מספרים על החוויה.</p>
+    <div class="index-testimonials-section__header">
+      <small class="index-testimonials-section__label">הלקוחות שלנו מדברים</small>
+      <h2 class="index-testimonials-section__title">אלפי לקוחות מרוצים<br>נושמים אוויר נקי יותר</h2>
     </div>
 
     <!-- Testimonials Grid -->
-    <div class="index-testimonials-section testimonials-grid">
-      
-      <!-- Testimonial Card 1: Homeowner with Allergies -->
-      <article class="index-testimonials-section testimonial-card">
-        <div class="index-testimonials-section card-accent" aria-hidden="true"></div>
-        <div class="index-testimonials-section card-header">
-          <div class="index-testimonials-section avatar-placeholder" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-          </div>
-          <div class="index-testimonials-section card-identity">
-            <h3 class="index-testimonials-section card-name">מיכל כהן</h3>
-            <span class="index-testimonials-section card-role">בעלת בית, תל אביב</span>
-          </div>
-          <div class="index-testimonials-section card-rating" aria-label="5 מתוך 5 כוכבים">
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-          </div>
+    <div class="index-testimonials-section__grid">
+      <!-- Card 1 -->
+      <div class="index-testimonials-section__card">
+        <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
-        <blockquote class="index-testimonials-section card-quote">
-          <p>"מאז הניקוי, האלרגיות של הילדים השתפרו פלאים. הצוות היה מקצועי, נקי ומהיר. לא האמנתי כמה אבק יצא מהתעלות – פשוט מדהים!"</p>
+        <blockquote class="index-testimonials-section__quote">
+          <p>“שירות מדהים! המזגן עובד כמו חדש והאוויר בבית הרבה יותר נקי. ממליץ בחום.”</p>
         </blockquote>
-        <div class="index-testimonials-section card-footer">
-          <span class="index-testimonials-section highlight-tag">שיפור באלרגיות</span>
+        <div class="index-testimonials-section__author">
+          <span class="index-testimonials-section__name">ירון לוי</span>
+          <span class="index-testimonials-section__role">בעל דירה, תל אביב</span>
         </div>
-      </article>
+      </div>
 
-      <!-- Testimonial Card 2: Property Manager (Featured - Slightly Larger) -->
-      <article class="index-testimonials-section testimonial-card featured">
-        <div class="index-testimonials-section card-accent" aria-hidden="true"></div>
-        <div class="index-testimonials-section card-header">
-          <div class="index-testimonials-section avatar-placeholder" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-          </div>
-          <div class="index-testimonials-section card-identity">
-            <h3 class="index-testimonials-section card-name">אבי לוי</h3>
-            <span class="index-testimonials-section card-role">מנהל נכסים, הרצליה</span>
-          </div>
-          <div class="index-testimonials-section card-rating" aria-label="5 מתוך 5 כוכבים">
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-          </div>
+      <!-- Card 2 -->
+      <div class="index-testimonials-section__card">
+        <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
-        <blockquote class="index-testimonials-section card-quote">
-          <p>"אנחנו סומכים רק על המרכז למיזוג וחיטוי בכל 12 הבניינים שלנו. המזגנים עובדים יעיל יותר, והדיירים מתלוננים פחות על ריחות. שירות מעולה ומחירים הוגנים."</p>
+        <blockquote class="index-testimonials-section__quote">
+          <p>“הצוות היה מקצועי, אדיב והגיע בזמן. התוצאות פשוט מדהימות – אין יותר ריחות.”</p>
         </blockquote>
-        <div class="index-testimonials-section card-footer">
-          <span class="index-testimonials-section highlight-tag">12 בניינים בניהול</span>
+        <div class="index-testimonials-section__author">
+          <span class="index-testimonials-section__name">מיכל כהן</span>
+          <span class="index-testimonials-section__role">מנהלת משרד, רמת גן</span>
         </div>
-      </article>
+      </div>
 
-      <!-- Testimonial Card 3: Clinic Administrator -->
-      <article class="index-testimonials-section testimonial-card">
-        <div class="index-testimonials-section card-accent" aria-hidden="true"></div>
-        <div class="index-testimonials-section card-header">
-          <div class="index-testimonials-section avatar-placeholder" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-          </div>
-          <div class="index-testimonials-section card-identity">
-            <h3 class="index-testimonials-section card-name">ד"ר רונית אברהם</h3>
-            <span class="index-testimonials-section card-role">מנהלת מרפאה, חיפה</span>
-          </div>
-          <div class="index-testimonials-section card-rating" aria-label="5 מתוך 5 כוכבים">
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-            <span class="index-testimonials-section star filled">★</span>
-          </div>
+      <!-- Card 3 -->
+      <div class="index-testimonials-section__card">
+        <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
-        <blockquote class="index-testimonials-section card-quote">
-          <p>"איכות האוויר בקליניקה קריטית עבורנו. אחרי הטיפול שלהם, הרגשנו מיד את ההבדל. אוויר סטרילי ונקי, בדיוק כמו שצריך להיות במקום רפואי."</p>
+        <blockquote class="index-testimonials-section__quote">
+          <p>“אחרי הניקוי, חשבון החשמל ירד פלאים. מקצוענים אמיתיים, שווה כל שקל.”</p>
         </blockquote>
-        <div class="index-testimonials-section card-footer">
-          <span class="index-testimonials-section highlight-tag">סטנדרט רפואי</span>
+        <div class="index-testimonials-section__author">
+          <span class="index-testimonials-section__name">אבי דהן</span>
+          <span class="index-testimonials-section__role">עצמאי, חולון</span>
         </div>
-      </article>
+      </div>
 
-    </div>
+      <!-- Card 4 -->
+      <div class="index-testimonials-section__card">
+        <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+        </div>
+        <blockquote class="index-testimonials-section__quote">
+          <p>“הגיעו עם ציוד מתקדם, עבדו בשקט ובנקיון. ממליצה לכל המשפחה והחברים.”</p>
+        </blockquote>
+        <div class="index-testimonials-section__author">
+          <span class="index-testimonials-section__name">רונית אברהם</span>
+          <span class="index-testimonials-section__role">מורה, פתח תקווה</span>
+        </div>
+      </div>
 
-    <!-- Trust Strip -->
-    <div class="index-testimonials-section trust-strip">
-      <p class="index-testimonials-section trust-strip-title">מתאימים לכל סוגי הלקוחות:</p>
-      <div class="index-testimonials-section trust-strip-items">
-        <span class="index-testimonials-section trust-badge">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-          בתים פרטיים
-        </span>
-        <span class="index-testimonials-section trust-badge">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
-          בנייני מגורים
-        </span>
-        <span class="index-testimonials-section trust-badge">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
-          בתי ספר
-        </span>
-        <span class="index-testimonials-section trust-badge">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-          משרדים
-        </span>
-        <span class="index-testimonials-section trust-badge">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-          מרפאות וקליניקות
-        </span>
+      <!-- Card 5 -->
+      <div class="index-testimonials-section__card">
+        <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+        </div>
+        <blockquote class="index-testimonials-section__quote">
+          <p>“שירות אמין ומקצועי. הרגשתי הבדל מיידי באיכות האוויר אחרי הטיפול.”</p>
+        </blockquote>
+        <div class="index-testimonials-section__author">
+          <span class="index-testimonials-section__name">דניאל שמעוני</span>
+          <span class="index-testimonials-section__role">מהנדס, הרצליה</span>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="index-testimonials-section__card">
+        <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+        </div>
+        <blockquote class="index-testimonials-section__quote">
+          <p>“הזמנתי ניקוי יסודי למשרד – התוצאות עלו על כל הציפיות. אין ספק שאחזור שוב.”</p>
+        </blockquote>
+        <div class="index-testimonials-section__author">
+          <span class="index-testimonials-section__name">עידן גולן</span>
+          <span class="index-testimonials-section__role">מנכ״ל, ראשון לציון</span>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="index-testimonials-section__card">
+        <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+        </div>
+        <blockquote class="index-testimonials-section__quote">
+          <p>“מחיר הוגן, עבודה יסודית ושירות אדיב. בדיוק מה שהייתי צריך לבית.”</p>
+        </blockquote>
+        <div class="index-testimonials-section__author">
+          <span class="index-testimonials-section__name">שירה מלכה</span>
+          <span class="index-testimonials-section__role">עקרת בית, אשדוד</span>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="index-testimonials-section__card">
+        <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+        </div>
+        <blockquote class="index-testimonials-section__quote">
+          <p>“תקשורת מצוינת לאורך כל התהליך. רואים שבאמת אכפת להם מהלקוח.”</p>
+        </blockquote>
+        <div class="index-testimonials-section__author">
+          <span class="index-testimonials-section__name">אורן חן</span>
+          <span class="index-testimonials-section__role">יזם, נתניה</span>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="index-testimonials-section__card">
+        <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-element-type="icon" data-icon-type="svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+        </div>
+        <blockquote class="index-testimonials-section__quote">
+          <p>“האוויר בבית השתנה פלאים. הילדים הפסיקו להתעטש. תודה ענקית!”</p>
+        </blockquote>
+        <div class="index-testimonials-section__author">
+          <span class="index-testimonials-section__name">נועה פרץ</span>
+          <span class="index-testimonials-section__role">אמא לשלושה, באר שבע</span>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Bottom Divider: Gradient dissolve from deep teal into misty pearl with particle fade -->
-  <div class="index-testimonials-section divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="index-testimonial-divider-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#0B3C3D" stop-opacity="1"></stop>
-          <stop offset="60%" stop-color="#0F5C5E" stop-opacity="0.8"></stop>
-          <stop offset="100%" stop-color="#F3F7F8" stop-opacity="1"></stop>
-        </linearGradient>
-      </defs>
-      <!-- Base wave shape -->
-      <path d="M0,120 L0,50 Q150,30 300,55 T600,45 T900,60 T1200,40 L1200,120 Z" fill="#0B3C3D"></path>
-      <!-- Particle fade dots representing clean air -->
-      <circle cx="100" cy="70" r="2" fill="#F3F7F8" opacity="0.4"></circle>
-      <circle cx="250" cy="55" r="1.5" fill="#F3F7F8" opacity="0.3"></circle>
-      <circle cx="400" cy="80" r="2.5" fill="#F3F7F8" opacity="0.5"></circle>
-      <circle cx="550" cy="45" r="1" fill="#F3F7F8" opacity="0.6"></circle>
-      <circle cx="700" cy="65" r="2" fill="#F3F7F8" opacity="0.4"></circle>
-      <circle cx="850" cy="50" r="1.5" fill="#F3F7F8" opacity="0.5"></circle>
-      <circle cx="1000" cy="75" r="2" fill="#F3F7F8" opacity="0.3"></circle>
-      <circle cx="1150" cy="55" r="1" fill="#F3F7F8" opacity="0.4"></circle>
-    </svg>
+    <!-- Bottom CTA -->
+    <div class="index-testimonials-section__cta">
+      <a href="#contact" class="index-testimonials-section__button btn-primary">
+        <span>צרו קשר עוד היום</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </a>
+    </div>
   </div>
 </section>
 
