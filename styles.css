@@ -5326,6 +5326,60 @@ body a.whatsapp-float {
   left: auto !important;
   right: 20px !important;
 }
+
+.index-hero-section .hero-main-title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+.index-hero-section .hero-main-title {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+}
+
+.index-hero-section .hero-main-title {
+  font-size: 3rem !important;
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+  margin-bottom: 16px !important;
+  color: #FFFFFF !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5) !important;
+  letter-spacing: -0.01em !important;
+}
+
+@media (max-width: 768px) {
+.index-hero-section .hero-main-title {
+  font-size: 2rem !important;
+  margin-bottom: 12px !important;
+}
+}
+
+.index-hero-section .hero-form-title {
+  color: #FFFFFF !important;
+}
+
+.index-hero-section .hero-form-subtitle {
+  color: #FFFFFF !important;
+}
+
+.index-hero-section .hero-form-submit {
+  color: #FFFFFF !important;
+}
+
+.index-hero-section .hero-form-privacy {
+  color: #FFFFFF !important;
+}
+
+.index-hero-section .hero-whatsapp-btn {
+  color: #FFFFFF !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
