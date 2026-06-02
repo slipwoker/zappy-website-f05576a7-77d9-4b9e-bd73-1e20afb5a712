@@ -5093,6 +5093,158 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     justify-content: center;
   }
 }
+
+.index-hero-section .hero-content-overlay {
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 32px !important;
+  max-width: 650px !important;
+  margin: 0 auto !important;
+  padding: 24px 20px !important;
+}
+
+.index-hero-section .hero-text-block {
+  text-align: center !important;
+  max-width: 100% !important;
+}
+
+.index-hero-section .hero-headline {
+  font-size: 2.4rem !important;
+  line-height: 1.3 !important;
+  margin-bottom: 12px !important;
+}
+
+.index-hero-section .hero-subtitle {
+  font-size: 1.05rem !important;
+  line-height: 1.6 !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+
+.index-hero-section .hero-form-block {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.index-hero-section .hero-form-card {
+  background: #FFFFFF !important;
+  border-radius: 16px !important;
+  padding: 36px 32px !important;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.18) !important;
+  border: 1px solid rgba(255,255,255,0.25) !important;
+  text-align: center !important;
+}
+
+.index-hero-section .hero-form-title {
+  font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  color: #163133 !important;
+  margin-bottom: 6px !important;
+}
+
+.index-hero-section .hero-form-subtitle {
+  font-size: 0.9rem !important;
+  color: #6B7F86 !important;
+  margin-bottom: 20px !important;
+}
+
+.index-hero-section .hero-form-fields {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+
+.index-hero-section .hero-form-input {
+  width: 100% !important;
+  padding: 14px 18px !important;
+  border-radius: 10px !important;
+  border: 2px solid #DDE7EA !important;
+  font-size: 1rem !important;
+  background: #F8FCFD !important;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease !important;
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+.index-hero-section .hero-form-input:focus {
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 3px rgba(15,118,110,0.15) !important;
+  outline: none !important;
+}
+
+.index-hero-section .hero-form-submit {
+  width: 100% !important;
+  padding: 16px 24px !important;
+  margin-top: 14px !important;
+  background: var(--accent-color) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 12px !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  transition: background 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease !important;
+}
+
+.index-hero-section .hero-form-submit:hover {
+  background: #e8694a !important;
+  box-shadow: 0 6px 24px rgba(255,122,89,0.4) !important;
+  transform: translateY(-1px) !important;
+}
+
+.index-hero-section .hero-form-privacy {
+  margin-top: 12px !important;
+  font-size: 0.8rem !important;
+  color: #6B7F86 !important;
+  text-align: center !important;
+}
+
+.index-hero-section .hero-whatsapp-cta {
+  margin-top: 20px !important;
+  padding-top: 18px !important;
+  border-top: 1px solid #DDE7EA !important;
+}
+
+.index-hero-section .hero-whatsapp-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  width: 100% !important;
+  padding: 16px 20px !important;
+  background: #25D366 !important;
+  color: #FFFFFF !important;
+  border-radius: 12px !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  transition: background 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease !important;
+}
+
+.index-hero-section .hero-whatsapp-btn:hover {
+  background: #1ebe57 !important;
+  box-shadow: 0 6px 28px rgba(37,211,102,0.45) !important;
+  transform: translateY(-1px) !important;
+}
+
+.index-hero-section .hero-whatsapp-btn .fa-whatsapp {
+  font-size: 1.4rem !important;
+}
+
+@media (max-width: 768px) {
+.index-hero-section .hero-content-overlay {
+  max-width: 100% !important;
+  padding: 16px !important;
+}
+
+.index-hero-section .hero-headline {
+  font-size: 1.7rem !important;
+}
+
+.index-hero-section .hero-form-card {
+  padding: 24px 16px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
