@@ -5316,6 +5316,11 @@ body .whatsapp-float-text {
   font-size: 14px !important;
 }
 }
+
+.site-footer a.whatsapp-float {
+  left: auto !important;
+  right: 20px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
