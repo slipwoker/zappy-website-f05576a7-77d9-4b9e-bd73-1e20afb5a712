@@ -5440,6 +5440,65 @@ body a.whatsapp-float {
 .index-hero-section .hero-form-input::placeholder {
   color: #4a4a4a !important;
 }
+
+.index-hero-section .hero-form-input {
+  background-color: #FFFFFF !important;
+  color: #163133 !important;
+  border: 2px solid #DDE7EA !important;
+}
+
+.index-hero-section .hero-form-input::placeholder {
+  color: #6B7F86 !important;
+  opacity: 1 !important;
+}
+
+.index-hero-section .hero-form-input:focus {
+  background-color: #FFFFFF !important;
+  color: #163133 !important;
+  border-color: var(--primary-color) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15) !important;
+}
+
+.index-hero-section .hero-form-title {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-subtitle {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-submit {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-privacy {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-whatsapp-btn {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-main-title {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-input::placeholder {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-input::-webkit-input-placeholder {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-input::-moz-placeholder {
+  color: #163133 !important;
+}
+
+.index-hero-section .hero-form-input:-ms-input-placeholder {
+  color: #163133 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
