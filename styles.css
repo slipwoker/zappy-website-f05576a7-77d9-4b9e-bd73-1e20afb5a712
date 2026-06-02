@@ -5544,6 +5544,11 @@ body a.whatsapp-float {
 .index-hero-section .hero-form-input:-ms-input-placeholder {
   color: #163133 !important;
 }
+
+.index-hero-section .hero-form-submit.btn-primary {
+  background-color: var(--primary) !important;
+  cursor: pointer !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
