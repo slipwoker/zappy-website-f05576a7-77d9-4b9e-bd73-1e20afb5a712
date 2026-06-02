@@ -1,0 +1,69 @@
+# המרכז למיזוג וחיטוי — Generative Engine Optimization Map
+
+> A professional air conditioning duct cleaning company focused on high conversion. The business provides specialized cleaning services for AC ducts, targeting homeowners and businesses who want clean, healthy air and efficient cooling systems.
+
+---
+
+## Pages
+
+### בית
+https://-f05576a7.zappy5.app
+מחפשים שירותי ניקוי תעלות מיזוג אוויר שיחזירו לכם אוויר נקי ובריא? במרכז למיזוג וחיטוי אנו מתמחים בניקוי יסודי של מערכות מיזוג, לשיפור איכות האוויר ויעילות המערכת. הזמינו עכשיו!
+
+## Legal & Policy
+
+### Privacy Policy
+https://-f05576a7.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-f05576a7.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-f05576a7.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-f05576a7.zappy5.app
+- Endpoint: https://-f05576a7.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About המרכז למיזוג וחיטוי
+A professional air conditioning duct cleaning company focused on high conversion. The business provides specialized cleaning services for AC ducts, targeting homeowners and businesses who want clean, healthy air and efficient cooling systems.
+
+## Target Audience
+- בעלי בתים עם אלרגיות
+- חברות ניהול נכסים
+- בעלי בתים חדשים
+- מוסדות בריאות
+- בתי ספר ומוסדות חינוך
+- משרדים מסחריים
+
+## Industry
+HVAC Cleaning Services
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-f05576a7.zappy5.app/sitemap.xml
+- Robots: https://-f05576a7.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-f05576a7.zappy5.app/llms-full.txt
