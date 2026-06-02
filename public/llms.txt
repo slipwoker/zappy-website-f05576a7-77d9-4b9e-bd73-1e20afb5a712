@@ -28,7 +28,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: airpure2015@gmail.com
+- Phone: 0504476459
+- Phone (tel): tel:0504476459
+- Address: דרך המכבים 54, ראשון לציון 
 
 ### Contact form
 - URL: https://example.com

@@ -719,11 +719,11 @@ Description: מחפשים שירותי ניקוי תעלות מיזוג אווי
 #### צור קשר
 
 
-- [business_email]
+- airpure2015@gmail.com
 
-- [business_phone]
+- 0504476459
 
-- [business_address]
+- דרך המכבים 54, ראשון לציון
 
 
 
@@ -936,11 +936,11 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 - חברה: המרכז למיזוג וחיטוי
 
-- אימייל: [business_email]
+- אימייל: airpure2015@gmail.com
 
-- טלפון: [business_phone]
+- טלפון: 0504476459
 
-- כתובת: [business_address]
+- כתובת: דרך המכבים 54, ראשון לציון
 
 
 
@@ -989,11 +989,11 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 #### צור קשר
 
 
-- [business_email]
+- airpure2015@gmail.com
 
-- [business_phone]
+- 0504476459
 
-- [business_address]
+- דרך המכבים 54, ראשון לציון
 
 
 
@@ -1214,9 +1214,9 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 - חברה: המרכז למיזוג וחיטוי
 
-- אימייל: [business_email]
+- אימייל: airpure2015@gmail.com
 
-- טלפון: [business_phone]
+- טלפון: 0504476459
 
 
 
@@ -1268,11 +1268,11 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 #### צור קשר
 
 
-- [business_email]
+- airpure2015@gmail.com
 
-- [business_phone]
+- 0504476459
 
-- [business_address]
+- דרך המכבים 54, ראשון לציון
 
 
 
@@ -1516,11 +1516,11 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 - חברה: המרכז למיזוג וחיטוי
 
-- אימייל: [business_email]
+- אימייל: airpure2015@gmail.com
 
-- טלפון: [business_phone]
+- טלפון: 0504476459
 
-- כתובת: [business_address]
+- כתובת: דרך המכבים 54, ראשון לציון
 
 
 
@@ -1566,11 +1566,11 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 #### צור קשר
 
 
-- [business_email]
+- airpure2015@gmail.com
 
-- [business_phone]
+- 0504476459
 
-- [business_address]
+- דרך המכבים 54, ראשון לציון
 
 
 
