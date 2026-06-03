@@ -5549,6 +5549,33 @@ body a.whatsapp-float {
   background-color: var(--primary) !important;
   cursor: pointer !important;
 }
+
+.index-hero-section .hero-whatsapp-btn {
+  padding: 16px 32px !important;
+  font-size: 1.15rem !important;
+  background-color: #25D366 !important;
+  border: 2px solid #25D366 !important;
+  box-shadow: 0 6px 24px rgba(37, 211, 102, 0.45) !important;
+  border-radius: 50px !important;
+  transition: all 0.3s ease !important;
+  animation: whatsapp-pulse 2s infinite !important;
+}
+
+.index-hero-section .hero-whatsapp-btn:hover {
+  background-color: #1da851 !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 10px 32px rgba(37, 211, 102, 0.55) !important;
+}
+
+@keyframes whatsapp-pulse {
+  0%, 100% { box-shadow: 0 6px 24px rgba(37, 211, 102, 0.45); }
+  50% { box-shadow: 0 6px 36px rgba(37, 211, 102, 0.7); }
+}
+
+@keyframes float-pulse {
+  0%, 100% { box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5); transform: scale(1); }
+  50% { box-shadow: 0 6px 36px rgba(37, 211, 102, 0.75); transform: scale(1.08); }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
