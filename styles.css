@@ -5710,6 +5710,54 @@ body a.whatsapp-float {
   0%, 100% { box-shadow: 0 4px 20px rgba(255, 122, 89, 0.5); }
   50% { box-shadow: 0 4px 32px rgba(255, 122, 89, 0.8); }
 }
+
+html[lang="he"] #mic-access-tool-general-button,
+html[lang="he"] .mic-access-tool-general-button {
+  width: 56px !important;
+  height: 56px !important;
+  border-radius: 50% !important;
+  background-color: var(--accent-color) !important;
+  color: #FFFFFF !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 24px rgba(255, 122, 89, 0.55) !important;
+  border: 3px solid #FFFFFF !important;
+  position: fixed !important;
+  bottom: 120px !important;
+  left: 24px !important;
+  z-index: 9999 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  animation: acc-pulse-he 2.5s infinite !important;
+}
+
+html[lang="he"] #mic-access-tool-general-button:hover,
+html[lang="he"] .mic-access-tool-general-button:hover {
+  background-color: #E06948 !important;
+  transform: scale(1.15) !important;
+  box-shadow: 0 6px 32px rgba(255, 122, 89, 0.7) !important;
+}
+
+@keyframes acc-pulse-he {
+  0%, 100% { box-shadow: 0 4px 24px rgba(255, 122, 89, 0.55); }
+  50% { box-shadow: 0 4px 38px rgba(255, 122, 89, 0.85); }
+}
+
+html[lang="he"] #mic-access-tool-general-button::after {
+  content: "נגישות";
+  position: absolute;
+  right: 64px;
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  white-space: nowrap;
+  font-weight: 600;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
