@@ -5705,6 +5705,11 @@ body a.whatsapp-float {
 .index-testimonials-section__cta a[href*="wa.me"] span {
   color: #ffffff !important;
 }
+
+@keyframes acc-pulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(255, 122, 89, 0.5); }
+  50% { box-shadow: 0 4px 32px rgba(255, 122, 89, 0.8); }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
